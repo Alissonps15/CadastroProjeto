@@ -18,7 +18,7 @@ public class Projeto {
     @Column(name = "projeto_id")
     private Long codigo;
 
-
+    //nome
     @Column(name= "nome", length = 150, nullable = false)
     private String nome;
 
