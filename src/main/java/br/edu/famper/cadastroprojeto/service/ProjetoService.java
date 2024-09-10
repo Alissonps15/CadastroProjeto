@@ -26,6 +26,7 @@ public class ProjetoService {
                .orElseThrow(() ->
                        new RuntimeException("Projeto não encontrado"));
 
+       salvo.setNome(projeto.getNome());
        salvo.setDescricao(projeto.getDescricao());
        salvo.setDataInicio(projeto.getDataInicio());
        salvo.setDataFim(projeto.getDataFim());
